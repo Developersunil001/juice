@@ -1,0 +1,251 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/Poppins/Poppins-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" !important;
+    text-decoration:none;
+    /* overflow: hidden; */
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main {
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    /* background-color: rgb(65, 65, 83); */
+}
+
+#nav {
+    width: 100%;
+    height: 10vh;
+    /* background-color: rgb(234, 185, 95); */
+}
+
+#logo {
+    font-size: 3vw;
+    padding: 1vh 5vh;
+    font-weight: 400;
+
+}
+
+#middle {
+    width: 100vw;
+    margin-top: -8vh;
+    text-align: center;
+    padding: 1vh 5vh;
+
+}
+
+#middle ul li {
+    display: inline-block;
+    padding-right: 3vh;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+#icon {
+    display: flex;
+}
+
+.ri-search-line {
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    left: 90vw;
+    bottom: 5vh;
+
+}
+
+.ri-shopping-cart-2-fill {
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    left: 92vw;
+    bottom: 5vh;
+}
+
+#block {
+    width: 60vw;
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color:beige; */
+    z-index: 999999;
+}
+
+#leaf03 {
+    position: relative;
+    left: 70%;
+    transform: rotate(2deg);
+}
+
+#leaf01 {
+    position: relative;
+    top: 30%;
+    right: 15%;
+    z-index: 99999;
+}
+
+#leaf02 {
+    position: relative;
+    top: 50%;
+    left: 30%;
+}
+
+#leaf04 {
+    position: relative;
+    left: 33%;
+    top: 45%;
+    z-index: 99;
+}
+
+#leaf05 {
+    position: relative;
+    right: 40%;
+    top: 70%;
+    z-index: 99;
+}
+
+#orange {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: -99;
+    
+
+}
+
+button {
+    width: 150px;
+    height: 25px;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 60%;
+    left: 20%;
+}
+
+#pepsi {
+    width:16vw;
+    height:80vh;
+    /* background-color:red; */
+    position: absolute;
+    top:90%;
+    left:58%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#pepsi img {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#para {
+    font-size: 2vw;
+    font-weight: 500;
+    color: silver;
+    position: absolute;
+    left: 20vw;
+    top: 30vh;
+}
+
+#booter {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 20vw;
+    top: 70vh;
+    padding: 2.5px 40px;
+}
+
+#number {
+    padding: 0vw 55vh;
+    color: black;
+    gap: 5px;
+}
+
+.small {
+    color: silver;
+    font-size: 15px;
+}
+
+.color {
+    color: green;
+}
+
+.bold {
+    font-size: 30px;
+}
+
+#healthy {
+    position: absolute;
+    left: 62vw;
+    top: 65vh;
+}
+
+.kuchbhi {
+    font-size: 1vw;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+#arrow {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ri-arrow-left-circle-line {
+    font-size: 50px;
+    padding: 35vh 10vh;
+
+}
+
+.ri-arrow-right-circle-line {
+    font-size: 50px;
+    padding: 35vh 10vh;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(-50%, -46%);
+    }
+
+    50% {
+        transform: translate(-50%, -54%);
+    }
+
+    100% {
+        transform: translate(-50%, -46%);
+    }
+    
+}
+
+#pepsi>img {
+    animation: float 4s ease-in-out infinite;
+    max-height: 600px;
+}
